@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img class="top-right-img" src="./IMAGES/image007.gif" alt="" >
+        <div class="top-section">
+            <div class="top-section-inner">
+                <div>
+                    <img class="logo-1" src="./IMAGES/image004.gif" alt="" />
+                    <img class="logo-2" src="./IMAGES/image011.gif" alt="">
+                </div>
+                <div class="top-section-text">
+                    <h3>Invoice to:</h3>    
+                    <p>Rivay Ravs</p>
+                    <p>JI Ciracas KDW No 27 Location, Country</p>
+                </div>
+            </div>
+            <div class="top-section-inner">
+                <div>
+                    <h1>Invoice</h1>
+                    <p>Invoice No: 000</p>
+                    <p>Invoice Date: 09/08/2024</p>
+                </div>
+                <div class="top-section-text">
+                    <h3>Invoice from:</h3>
+                    <p>Rivay Ravs</p>
+                    <p>JI Ciracas KDW No 27 Location, Country</p>
+                </div>
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th class="left-border" >No.</th>
+            
+                    <th>Item Description</th>
+                    <th>Price</th>
+                    <th>Student</th>
+                    <th class="right-border">Total</th>
+                </tr>
+            </thead>
+            <tbody id="invoiceItems">
+                <tr>
+                    <td class="left-border">1</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" id="Price1" ></td>
+                    <td><input type="number" id="count1"></td>
+                    <td class="right-border"><input type="number" id="Total1"></td>
+                </tr>
+                <tr>
+                    <td class="left-border">2</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" id="Price2"></td>
+                    <td><input type="number" id="count2"></td>
+                    <td class="right-border"><input type="number" id="Total2"></td>
+                </tr>
+                <tr>
+                    <td class="left-border">3</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" id="Price3"></td>
+                    <td><input type="number" id="count3"></td>
+                    <td class="right-border"><input type="number" id="Total3"></td>
+                </tr>
+                <tr>
+                    <td class="left-border">4</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" id="Price4"></td>
+                    <td><input type="number" id="count4"></td>
+                    <td class="right-border"><input type="number" id="Total4"></td>
+                </tr>
+                <tr>
+                    <td class="left-border">5</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" id="Price5"></td>
+                    <td><input type="number" id="count5"></td>
+                    <td class="right-border"><input type="number" id="Total5"></td>
+                </tr>
+                <tr>
+                    <td class="left-border">6</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" id="Price6"></td>
+                    <td><input type="number" id="count6"></td>
+                    <td class="right-border"><input type="number" id="Total6"></td>
+                </tr>
+                <tr>
+                    <td class="left-border">7</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" id="Price7"></td>
+                    <td><input type="number" id="count7"></td>
+                    <td class="right-border"><input type="number" id="Total7"></td>
+                </tr>
+                <tr>
+                    <td class="left-border">8</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" id="Price8"></td>
+                    <td><input type="number" id="count8"></td>
+                    <td class="right-border"><input type="number" id="Total8"></td>
+                </tr>
+                <tr>
+                    <td class="left-border">9</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" id="Price9"></td>
+                    <td><input type="number" id="count9"></td>
+                    <td class="right-border"><input type="number" id="Total9"></td>
+                </tr>
+                <tr>
+                    <td class="left-border">10</td>
+                    <td><input type="text"></td>
+                    <td><input type="number" id="Price10"></td>
+                    <td><input type="number" id="count10"></td>
+                    <td class="right-border"><input type="number" id="Total10"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+            <div class="payment-info">
+                <p > GST: <span id="gst"></span></p>
+                <p class="total-text">Total: <span id="total"></span></p>
+            </div>
+            <div class="footer">
+                <div class="payment">
+                    <h5>Payment Method</h5>
+                    <p>ACC Name: TEKZOW</p>
+                    <p>ACC NO: 50200090658608</p>
+                    <p>IFSC CODE: HDFC0009442</p>
+                    <p>Branch: IDEAL HOMES</p>
+                    <p>MMID: 9240003</p>
+                </div>
+                <div class="signature">
+                    <p style="text-align: right;">Authorized signature</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact">
+        <!-- <img class="bottom-left-img" src="./IMAGES/image019.gif" alt="">  -->
+         <div class="underline"> 
+            <span class="bottom-left-bar"></span>
+            <span class="bottom-underline"></span>
+            <span class="bottom-dot"></span>
+        </div> 
+        <p class="copyright">📞 91 6362850853
+        🌐 Tekzow.com
+        ✉️ contactus@tekzow.com
+        📍 Electronic city, Phase-1, Bangalore</p>
+         <!-- <button onclick="printPage()">Print</button>   -->
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
